@@ -1,1 +1,553 @@
 
+<!DOCTYPE html>
+
+ <head>
+    
+     <title> Commands </title>
+        
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cdn.frankerfacez.com/emote/536927/4">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/d5c0a13bb9.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<style>
+    .navbar-dark {
+        background: #000000;
+        height:50px;
+    }
+
+    a.dropdown-item {
+        font-size: 0.85rem !important;
+    }
+    
+    hr.dropdown-divider {
+        border-top: 1px;
+        margin: 8px 12px;
+    }
+</style>
+
+        <style>
+
+            h1 {
+                color: #FFF;
+            }
+
+            .footer a {
+                text-decoration: none;
+            }
+            
+            /* animated links from bontalor website (https://github.com/bontalor) */
+
+            #links a {
+		animation: linkhover 3s infinite;
+                text-decoration: none;
+                color: #FF0000;
+            }
+
+            #links a:hover {
+                animation: linkhover 3s infinite;
+            }
+
+            @keyframes linkhover {
+                7.14%, 57.14% {color:#ff0000;}
+                14.28%, 54.28% {color:#ff7f00;}
+                21.42%, 71.42% {color:#ffff00;}
+                28.57%, 78.57% {color:#00ff00;}
+                35.71%, 85.71% {color:#0000ff;}
+                42.85%, 92.85% {color:#4b0082;}
+                50%, 100% {color:#8b00ff;}
+            }
+
+        </style>
+
+    </head>
+    
+   <body style="background-color:#000000;">
+
+        <header>
+                
+<nav class="navbar navbar-expand navbar-dark navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-nav mr-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/commands">Commands</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+         <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                        <th>Cooldown</th>
+                        <th>Permission</th>
+                        <th>Imagen</th>
+                      
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>%</td>
+                    <td>Send a random percentage from 0-100%</td>
+                    <td>~%</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>7tvemotes</td>
+                    <td>Send 7tv emotes from the channel and other channels</td>
+                    <td>~7tvemotes [channel]</td>
+                    <td>5 seconds</td>
+
+                    
+                    
+                </tr>
+		 <tr>
+                    <td>3</td>
+                    <td>7tvsearch</td>
+                    <td>Specify a 7tv emote and the bot will send the link to the specified emote.</td>
+                    <td>~7tvsearch [emote]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+		 <tr>
+                    <td>4</td>
+                    <td>7tvuser</td>
+                    <td>Specifies a 7tv user</td>
+                    <td>~7tvuser [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>8ball</td>
+                    <td>This command will answer whatever yes/no question you have</td>
+                    <td>~8ball yes or no</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+ 
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>accage</td>
+                    <td>Check how long your account and other users' accounts have been created</td>
+                    <td>~accage [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+ 
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>anime</td>
+                    <td>Send random anime names</td>
+                    <td>~anime</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>badge</td>
+                    <td>Check the badge you have set in the chat and other users' badges.</td>
+                    <td>~badge [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>botinfo</td>
+                    <td>Send bot info and how to add the bot to your channel</td>
+                    <td>~botinfo</td>
+                    <td>2 seconds</td>
+
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>botsubs</td>
+                    <td>check how many channels the bot is subscribed to</td>
+                    <td>~botsubs</td>
+                    <td>3 seconds</td>
+
+                </tr>
+		 <tr>
+                    <td>11</td>
+                    <td>bttvsearch</td>
+                    <td>specify a bttv emote and the bot will send the link to the specified emote.</td>
+                    <td>~bttvsearch [emote]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>catfact</td>
+                    <td>Send cat fact</td>
+                    <td>~catfact</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>chatsettings</td>
+                    <td>Sends the chat settings of the specified channel</td>
+                    <td>~chatsettings [channel]</td>
+                    <td>1 seconds</td>
+                    <td>Owner</td>
+
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>chatstats</td>
+                    <td>Sends the total message sent in a channel that has chatstats</td>
+                    <td>~chatstats [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>chatterino</td>
+                    <td>Send the links of chatterino7 and if you want the one of dankerino</td>
+                    <td>~chatterino [dankerino:true]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>chatters</td>
+                    <td>Send the total number of chatters you have on your channel and other channels.</td>
+                    <td>~chatters [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                 <tr>
+                    <td>17</td>
+                    <td>cf</td>
+                    <td>coinflip 4Head</td>
+                    <td>~cf</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>color</td>
+                    <td>Check your own and other users' chatcolour</td>
+                    <td>~color [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>commands</td>
+                    <td>Sends the list of commands available to the bot</td>
+                    <td>~commands</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>dislikes</td>
+                    <td>Specify a youtube id or a link and the bot will send the likes and dislikes of the video.</td>
+                    <td>~dislikes [Video-ID]</td>
+                    <td>4 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>dongers</td>
+                    <td>Send random dongers.</td>
+                    <td>~dongers</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>emotes</td>
+                    <td>Check the emotes of the channel if it is verified or affiliated and of other channels, it will also send the channel subscription link in case you want to subscribe.</td>
+                    <td>~emotes [channel]</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                 <tr>
+                    <td>23</td>
+                    <td>epicgames</td>
+                    <td>specify a game and the bot will send the link to the game you have specified and also if it is free, if it is not free it will send the price. </td>
+                    <td>~epicgames [game]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+		 <tr>
+                    <td>24</td>
+                    <td>ffzsearch</td>
+                    <td>specify a ffz emote and the bot will send the link to the emote you have specified.</td>
+                    <td>~ffzsearch [emote]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+
+                 <tr>
+                    <td>25</td>
+                    <td>fill</td>
+                    <td>repeats the specified phrase until it reaches 500 characters</td>
+                    <td>~fill [message]</td>
+                    <td>5 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>followage</td>
+                    <td>Check how long you have been following the channel and other channels.</td>
+                    <td>~followage [user] [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>followers</td>
+                    <td>Check how many followers the channel has and from other channels</td>
+                    <td>~followers [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>funfact</td>
+                    <td>sends a random fun fact</td>
+                    <td>~funfact</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>game</td>
+                    <td>Check the category/game of the channel and other channels</td>
+                    <td>~game</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>google</td>
+                    <td>Send the link to the search you have specified</td>
+                    <td>~google [message]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>joinchannel</td>
+                    <td>the bot will join a channel</td>
+                    <td>~joinchannel [channel]</td>
+                    <td>2 seconds</td>
+                    <td>Owner</td>
+
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>logs</td>
+                    <td>Send the link to the logs to the channel you specify (only ivr.fi logs).</td>
+                    <td>~logs [user] [channel]</td>
+                    <td>4 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>massping</td>
+                    <td>pings everyone in the chat</td>
+                    <td>~massping [message]</td>
+                    <td>5 seconds</td>
+                    <td>Broadcaster</td>
+
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>math</td>
+                    <td>Send the result of the math that you have specified.</td>
+                    <td>~math [math]</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>mods</td>
+                    <td>Check how many mods there are in total and active on the channel and other channels.</td>
+                    <td>~mods [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>pfp</td>
+                    <td>Send the profile picture you have and of other users.</td>
+                    <td>~pfp [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>pick</td>
+                    <td>Picks a single word from the provided list of words in a message.</td>
+                    <td>~pick [words]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+		 <tr>
+                    <td>38</td>
+                    <td>pingme</td>
+                    <td>I will ping you</td>
+                    <td>~pingme</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+	
+                <tr>
+                    <td>39</td>
+                    <td>ping</td>
+                    <td>check how long the bot has been active</td>
+                    <td>~ping</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>query</td>
+                    <td>Ask a question. Wolfram Alpha query</td>
+                    <td>~query [Wolfram|Alpha]</td>
+                    <td>4 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>reddit</td>
+                    <td>Specify a subreddit and send random images from the subreddit you specified.</td>
+                    <td>~reddit [subreddit]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>rpfp</td>
+                    <td>Send pfp randoms from the list of users, you can use user:true to see the name of the user.</td>
+                    <td>~rpfp [user:true]</td>
+                    <td>4 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>setprefix</td>
+                    <td>change the bot prefix</td>
+                    <td>~prefix [prefix]</td>
+                    <td>5 seconds</td>
+                    <td>Broadcaster</td>
+
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>spam</td>
+                    <td>Spam a phrase in chat 3-60</td>
+                    <td>~spam [phrase]</td>
+                    <td>5 seconds</td>
+                    <td>Moderators</td>
+>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>steam</td>
+                    <td>specify a steam game and the bot will send the link of the game you have specified</td>
+                    <td>~steam [game]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>sa</td>
+                    <td>check how long you have been a channel subscriber</td>
+                    <td>~sa [user] [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td>title</td>
+                    <td>check the title of the channel and other channels</td>
+                    <td>~title [channel]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td>uid</td>
+                    <td>Send your user id</td>
+                    <td>~uid [user]</td>
+                    <td>3 seconds</td>
+                    <td>User</td>
+
+                    
+                </tr>
+		 <tr>
+                    <td>49</td>
+                    <td>unscramble</td>
+                    <td> Specify a word for example ehllo and it will send the sorted word. </td>
+                    <td>~unscramble [word]</td>
+                    <td>2 seconds</td>
+                    <td>User</td>
+
+                    
+                </tr>
+		 
+                <tr>
+                 </table>
+
+      
+
+    </body>
+    </html>
+    
